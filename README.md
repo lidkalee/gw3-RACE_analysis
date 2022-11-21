@@ -10,9 +10,6 @@ STAR --runMode genomeGenerate --genomeDir genome/ --genomeFastaFiles genome/Schi
 bash test_script.sh -i Wild_type_clone2_R1_001.fastq -I Wild_type_clone2_R2_001.fastq -o output_Wild_type_clone2_20220830
 
 
-bash joining_R1R2.sh -i Wild_type_clone2_R1_001.fastq -I Wild_type_clone2_R2_001.fastq -a genome/annotation_6k_clean.bed 
-
-
 ### 2. Joining 
   *run the script in the directory with the output)
 bash ../joining_R1R2.sh -i R1_Aligned.sortedByCoord.out.bam -I R2_Aligned.out.bam -a ../genome/annotation_6k_clean.bed

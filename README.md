@@ -1,4 +1,4 @@
-# Pipeline to analyze Tail-seq data with an emphasis on 3' mRNA tails identification
+# Pipeline to analyze  3' mRNA tails in Tail-seq data
 Script to analysis of TAIL-seq data from fastq files.
 
 

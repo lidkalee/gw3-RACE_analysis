@@ -1,0 +1,12 @@
+STAR 2.7.3a
+fastq_pair
+fastp 0.20.0
+samtools 1.10
+bedtools v2.27.1
+bedGraphToBigWig v 4
+Python 3.9
+matplotlib
+numpy
+pandas
+seaborn
+re
